@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>suke's portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/cursor.css">
+    <link rel="icon" href="img/favicon.ico">
+    <!--フォント導入-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;500;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/luxy.js" charset="utf-8"></script>
+</head>
+
+<body>
+    <div id="curtain" class="close"></div>
+    <div id="cursor" class="cursor"></div>
+    <div data-scrol class="all">
+        <header>
+            <a><div class="back" href='#'></div></a>
+            <a class="contact" href='mailto:sukepc0824&#64;gmail.com'>Contact</a>
+        </header>
+
+        <div class="main" id="luxy">
+            <div class="top luxy-el" data-speed-y="30" data-offset="0" data-horizontal='0' data-speed-x="0">
+                <div class="title">
+                    <p class="main_text">SUKE's Portfolio</p>
+                    <p class="sub_title">Here is my profile and design.</p>
+                </div>
+            </div>
+            <div class="jump">
+                <div class="swiper luxy-el" data-speed-y="0" data-offset="0" data-horizontal='1' data-speed-x="0">
+                    <div class="swiper-container">
+                        <a class="swiper-wrapper" href='profile.html'>
+                            <!-- スライド -->
+                            <div class="swiper-slide">PROFILE</div>
+                            <div class="swiper-slide">PROFILE</div>
+                            <div class="swiper-slide">PROFILE</div>
+                        </a>
+                    </div>
+                    <!-- 必要に応じたwrapper -->
+                </div>
+                <img src="img/suke_background.png" class="suke_background">
+            </div>
+            <div class="portfolio_background luxy-el" data-speed-y="-2" data-offset="0" data-horizontal='0'
+                data-speed-x="0">
+                <div class="portfolio">
+                    <div id="portfolio"></div>
+                    <div class="left_content">
+                        <p>Portfolio</p>
+                        <div class="portfolio_content">
+                            <h1>● REALIZE-ホームページ</h1>
+                            <h2>クリエイターグループREALIZEのホームページの<br>メインデザインを担当しました。</h2>
+                            <div class="pre_img">
+                                <a href="https://realize-creator.studio.site">
+                                    <img src="img/realize.png">
+                                </a>
+                                <h3>realize-creator.studio.site</h3>
+                            </div>
+                        </div>
+                        <div class="portfolio_content">
+                            <h1>● Youtube</h1>
+                            <h2>YouTubeで商品レビュー動画を作成しています。
+                                企業とのタイアップで受注して動画を作成したこともあります。</h2>
+                            <div class="pre_img">
+                                <a href="https://www.youtube.com/channel/UChbaai6t6sUmy7oDO7YaXRg">
+                                    <img src="img/youtube.png">
+                                </a>
+                                <h3>youtube.com/スケsuke</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right_content">
+                        <div class="portfolio_content">
+                            <h1>● Latest mi_dev</h1>
+                            <h2>えぬあろね（@Iam_nalone）さん制作のOSもどき，
+                                「Latest mi」のダウンロードページ。決められたUIの中でのレイアウトを工夫しました。</h2>
+                            <div class="pre_img">
+                                <a>
+                                    <img src="img/latest.png">
+                                </a>
+                                <h3>まだ公開されていません</h3>
+                            </div>
+                        </div>
+                        <div class="portfolio_content">
+                            <h1>● VIDEO Compotion</h1>
+                            <h2>チャンネル上での映像合作を主催しました。
+                                またやろうかな。</h2>
+                            <div class="pre_img">
+                                <a href="https://www.youtube.com/watch?v=R8Sf-DupCGk">
+                                    <img src="img/video.png">
+                                </a>
+                                <h3>youtu.be/R8Sf-DupCGk</h3>
+                            </div>
+                        </div>
+                        <a class="button" href='mailto:sukepc0824&#64;gmail.com' target="_blank">
+                            <p>依頼する</p><img src="img/arrow.svg"></img>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="top">
+                    <h1 class="luxy-el" data-speed-y="0" data-offset="0" data-horizontal='1' data-speed-x="0"></h1>
+                </div>
+                <div class="sitemap">
+                    <a href='index.html'>Top</a>
+                    <a href='profile.html'>Profile</a>
+                    <a href='index.html'>Portfolio<a>
+                            <a href='mailto:sukepc0824&#64;gmail.com' target="_blank">Contact
+                            </a>
+                </div>
+                <p>このサイトは私のWEBデザインの勉強のためだけに作ったものです。そのため全くUXへの配慮がありません。許して。<br>&copy;2022 SUKE </p>
+            </footer>
+        </div>
+    </div>
+    <div class="caution">
+        <img src="img/info.svg" class="caution">
+        <p class="caution">スマホの方は画面を回転させてご覧ください。それでも表示されない場合は諦めてください。
+        </p>
+    </div>
+
+    <script>const swiper = new Swiper(".swiper-container", {
+            loop: true, // ループ有効
+            slidesPerView: 2, // 一度に表示する枚数
+            speed: 9000, // ループの時間
+            allowTouchMove: false, // スワイプ無効
+            autoplay: {
+                delay: 0, // 途切れなくループ
+            },
+        });
+    </script>
+    <script>
+        luxy.init({
+            wrapper: '#luxy', //慣性スクロールを包括する要素のID
+            wrapperSpeed: 0.07 //スクロールスピード
+        });
+    </script>
+    <script>
+        function setTransitionCurtain() {
+            const elms = document.querySelectorAll("a");
+            for (let i = 0; i < elms.length; i++) {
+                const elm = elms[i];
+                if (elm.getAttribute("target")) {
+                    continue;
+                }
+                elm.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    document.getElementById("curtain").classList.add("close");
+                    setTimeout(function () {
+                        window.location = elm.href;
+                    }, 600);
+                });
+            }
+        }
+    </script>
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+            //画面遷移用カーテンを消す 
+            document.getElementById("curtain").classList.remove("close");
+            //画面遷移用カーテンをセット 
+            setTransitionCurtain();
+        })
+    </script>
+    <script src="js/cursor.js"></script>
+</body>
+
+</html>

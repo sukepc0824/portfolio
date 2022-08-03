@@ -1,0 +1,106 @@
+@media (min-width: 951px) {
+html,body,a{
+    cursor: none;
+  }
+  
+  .cursor {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: rgba(85, 85, 85, 0.7);
+    z-index: 1000;
+    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
+    transform: translate(0, 0);
+    pointer-events: none;      
+  }
+  
+  /*aタグにホバーした時に見た目変化*/
+  .cursor.cursor--hover {
+    top: -20px;
+    left: -20px;
+    width: 5vw;
+    height: 5vw;
+    background: rgba(0, 26, 255, 0.5);
+  }
+  
+  /*jumpのところで色変更ー青*/
+  .cursor.color-change-yellow {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: rgba(218, 255, 9, 0.7);
+    z-index: 1000;
+    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
+    transform: translate(0, 0);
+    pointer-events: none;
+  }
+  
+  .cursor.color-change-yellow.cursor--hover {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    background: rgba(218, 255, 9, 0.7);
+    z-index: 1000;
+    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
+    transform: translate(0, 0);
+    pointer-events: none;
+  }
+  
+  /*jumpのところで色変更ー白*/
+  .cursor.color-change-white {
+    position: fixed;
+    top: -5px;
+    left: -5px;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background: rgba(236, 236, 236, 0.7);
+    z-index: 1000;
+    transition: width 0.5s, height 0.5s, top 0.5s, left 0.5s;
+    transform: translate(0, 0);
+    pointer-events: none;
+  }
+  
+  .cursor.color-change-white.cursor--hover {
+    top: -20px;
+    left: -20px;
+    width: 5vw;
+    height: 5vw;
+    background: rgba(0, 26, 255, 0.5);
+  }
+  }
+
+@media (max-width: 950px) {
+.cousor {
+    display:none;
+    }
+    
+ .cursor.cursor--hover {
+    display:none;
+    }
+    
+ .cursor.color-change-yellow {
+    display:none;
+    }
+
+  .cursor.color-change-yellow.cursor--hover {
+    display:none;
+    }
+
+ .cursor.color-change-white {
+    display:none;
+    }
+
+ .cursor.color-change-white.cursor--hover {
+    display:none;
+    }
+}
