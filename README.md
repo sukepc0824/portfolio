@@ -5,6 +5,8 @@
 
 私のように自分だけのサイトを作りたい方がいれば，デザイン面は自由にパクって頂いて結構です。
 
+[> Twitter](https://twitter.com/pcsuke)       [> Youtube](https://www.youtube.com/c/スケSUKE)
+
 
 ## html
 
@@ -29,3 +31,7 @@ Luxy.js = [慣性スクロール](https://github.com/min30327/luxy.js)
 swiper.js = [文字アニメーション](https://swiperjs.com)
 
 cursor.js = カーソル追従制御用
+
+## img
+
+SVG多めですがプロフィール画像などは圧縮してないので効率めっちゃ悪いです
