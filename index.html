@@ -164,6 +164,9 @@
             document.getElementById("curtain").classList.remove("close");
             setTransitionCurtain();
         })
+window.addEventListener("pageshow", function(event) { 
+  document.getElementById("curtain").classList.remove("close"); 
+});
     </script>
     <script src="js/cursor.js"></script>
 </body>
