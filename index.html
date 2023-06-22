@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SUKE's Porfolio</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.ico" id="favicon">
+    <script type="text/javascript" src="js/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+    <meta name="viewport" content="width=device-width">
+    <link href="css/style-mobile.css" rel="stylesheet" type="text/css" media="(max-width: 649px)">
+    <link href="css/style-tablet.css" rel="stylesheet" type="text/css"
+        media="(min-width: 650px) and (max-width: 1149px)">
+    <link href="css/style-desktop.css" media="(min-width: 1150px)" rel="stylesheet" type="text/css">
+
+    <meta name="description" content="クリエイター スケ/SUKEのポートフォリオです。主な活動は動画投稿・Web系の開発・UIデザインです。依頼受託もありますが，ほぼほぼ趣味です。" />
+    <meta property="og:description"
+        content="クリエイター スケ/SUKEのポートフォリオです。主な活動は動画投稿・Web系の開発・UIデザインです。依頼受託もありますが，ほぼほぼ趣味です。" />
+
+    <meta property="og:site_name" content="SUKE's Porfolio" />
+    <meta property="og:title" content="SUKE's Porfolio" />
+    <meta property="og:image" content="https://pcsuke.netlify.app/img/page_image.png" />
+    <meta property="og:locale" content="ja_JP" />
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#"><img src="img/logo.svg"></a></li>
+            <li class="page-link"><a href="#about-me">About</a></li>
+            <li class="page-link"><a href="#works">Works</a></li>
+            <li class="page-link"><a href="#">Contact</a></li>
+            <li class="button">
+                <button class="header-menu-button">
+                    <div class="border1"></div>
+                    <div class="border2"></div>
+                </button>
+            </li>
+            <!---モバイル用ヘッダーメニュ-->
+        </ul>
+    </header>
+    <div class="header-menu">
+        <ul>
+            <li><a href="#about-me">About</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div id="top">
+        <div class="title">
+            <h1><img src="img/title.svg"></h1>
+            <p lang="en" style="line-height: 1.3;">This website is about SUKE's Works and
+                profile. <br>I made this page by studying html.</p>
+        </div>
+    </div>
+    <div id="about-me" class="about-me">
+        <h2>About me</h2>
+        <p class="profile caption" lang="en">I am a
+            <span>Video creator/Web developer/UI designer</span>
+            living in Oita, Japan.
+            Belongs to creator-group REALIZE.<br>
+            I create many things as a hobby/work.<br>Please Feel free to contact us.
+        </p>
+        <div class="content-box-wrapper">
+            <div class="content-box small">
+                <img src="img/suke_icon.png" class="icon">
+            </div>
+            <div class="content-box small">
+                <p class="content-title">Twitter</p>
+                <img src="img/twitter_logo.svg" class="logo">
+                <h3>@pcsuke</h3>
+            </div>
+            <div class="content-box large">
+                <table>
+                    <tr>
+                        <td class="table-title" lang="en">name:</td>
+                        <td>スケ/SUKE</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title" lang="en">birthday:</td>
+                        <td lang="en">August 24,2008 14y/o</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title" lang="en">tools:</td>
+                        <td>Figma,YMM4,DaVinci Resolve</td>
+                    </tr>
+                    <tr>
+                        <td class="table-title" lang="en">contact:</td>
+                        <td>sukepc0824@gmail.com</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <section class="side-scroll">
+        <div id="works" class="works">
+            <div class="works-wrapper">
+                <h2>Works<br>of
+                    <span class="video" lang="en">Video</span>
+                    <span class="dev" lang="en">Development</span>
+                </h2>
+                <div class="content-box-wrapper">
+                    <div class="content-box-list">
+                        <div class="video-works">
+                            <div class="content-box small subscriber">
+                                <p class="content-title" lang="en">Subscriber</p>
+                                <h3>2K+</h3>
+                            </div>
+                            <div class="content-box small text">
+                                <p lang="en">I post gadget review<br> videos on Youtube.</p>
+                            </div>
+                            <div class="content-box large card">
+                                <img src="img/room_tour.png">
+                                <div class="card-panel">
+                                    <div class="card-panel-contents">
+                                        <p class="category" lang="en">Promotion video</p>
+                                        <p class="card-title">Room Tour 2023</p>
+                                        <button open-to="room-tour">
+                                            <img src="img/plus_button.svg">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-box large card">
+                                <img src="img/suke-collab.png">
+                                <div class="card-panel">
+                                    <div class="card-panel-contents">
+                                        <p class="category" lang="en">Typography PV</p>
+                                        <p class="card-title" lang="en">SUKE Collab-video</p>
+                                        <button open-to="suke-collab">
+                                            <img src="img/plus_button.svg">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-box large card">
+                                <img src="img/hackintosh.png">
+                                <div class="card-panel">
+                                    <div class="card-panel-contents">
+                                        <p class="category" lang="en">Independent Video</p>
+                                        <p class="card-title" lang="en">How to install macOS</p>
+                                        <button open-to="hackintosh">
+                                            <img src="img/plus_button.svg">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-box vertical-medium more">
+                                <a href="https:youtube.com/@sukepc">
+                                    <h3>20+</h3>
+                                    <p lang="en">more videos...</p>
+                                </a>
+                            </div>
+                            <div class="content-box small client">
+                                <img src="img/clients/benq.png">
+                            </div>
+                            <div class="content-box small client">
+                                <img src="img/clients/maono.png">
+                            </div>
+                            <div class="content-box small client">
+                                <img src="img/clients/soundpeats.png">
+                            </div>
+                            <div class="content-box small client">
+                                <img src="img/clients/fifine.png">
+                            </div>
+                        </div>
+                        <!--スマホ用タイトル-->
+                        <h2 style="display: none;" lang="en">Works<br>of Development
+                        </h2>
+                        <div class="development-works">
+                            <div class="content-box small language">
+                                <p class="content-title" lang="en">Primary Language</p>
+                                <h3>Javascript</h3>
+                            </div>
+                            <div class="content-box small text">
+                                <p lang="en">I’m a web developer<br> and<br> designer.</p>
+                            </div>
+                            <div class="content-box small flameworks">
+                                <p class="content-title" lang="en">Flameworks</p>
+                                <ul>
+                                    <li>Native</li>
+                                    <li>jQuery</li>
+                                    <li>React</li>
+                                </ul>
+                            </div>
+                            <div class="content-box small github">
+                                <img src="img/github.png">
+                            </div>
+                            <div class="content-box large card">
+                                <img src="img/quick_searcher/quick_searcher.png">
+                                <div class="card-panel">
+                                    <div class="card-panel-contents">
+                                        <p class="category" lang="en">UI Design/Web Development</p>
+                                        <p class="card-title">Quick Searcher</p>
+                                        <button open-to="quick-searcher">
+                                            <img src="img/plus_button.svg">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-box large card">
+                                <img src="img/realize/realize.png">
+                                <div class="card-panel">
+                                    <div class="card-panel-contents">
+                                        <p class="category" lang="en">Web Design</p>
+                                        <p class="card-title">REALIZE Official</p>
+                                        <button open-to="realize">
+                                            <img src="img/plus_button.svg">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-box large card">
+                                <img src="img/suke_os/suke_os.png">
+                                <div class="card-panel">
+                                    <div class="card-panel-contents">
+                                        <p class="category" lang="en">GUI Design/Web Development</p>
+                                        <p class="card-title">sukeOS project</p>
+                                        <button open-to="suke-os">
+                                            <img src="img/plus_button.svg">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-box large card">
+                                <img src="img/adobe-icon/adobe-icon.png">
+                                <div class="card-panel">
+                                    <div class="card-panel-contents">
+                                        <p class="category" lang="en">UI Design/Web Development</p>
+                                        <p class="card-title">Adobe-icon Generator</p>
+                                        <button open-to="adobe-icon">
+                                            <img src="img/plus_button.svg">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="progress"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="contact" id="contact">
+        <h2>Contact</h2>
+        <p class="caption" lang="en">
+            Please send video production and development requests to me by email <span>sukepc0824@gmail.com</span>. For
+            small questions to me, please send them to <span>Twitter DM</span>.
+        </p>
+        <p class="caption" lang="jp" style="line-height: 1.3; letter-spacing: normal;">
+            私への動画制作・webアプリ開発・デザイン制作の依頼は<span>sukepc0824@gmail.com</span>まで。<br>
+            その他やちょっとした質問は<span>Twitter DM</span>までお願いします。</p>
+        <div class="content-box-wrapper">
+            <a href="mailto:sukepc0824@gmail.com">
+                <div class="content-box accent">
+                    <h3 lang="en">Send Email</h3>
+                    <h3 lang="jp">メールを送信</h3>
+                    <p>sukepc0824@gmail.com</p>
+                </div>
+            </a>
+            <a href="https://twitter.com/messages/compose?recipient_id=1367023585055805440">
+                <div class="content-box">
+                    <h3 lang="en">Let’s Talk!</h3>
+                    <h3 lang="jp">ちと話ましょ</h3>
+                    <p>@pcsuke Twitter-DM</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="page-wrapper"></div>
+    <div class="deep-dive room-tour">
+        <button class="close">
+            <img src="img/close.svg">
+        </button>
+        <div class="scroll-block">
+            <section>
+                <p class="category">Promotion video</p>
+                <h2>Room Tour 2023</h2>
+                <div class="buttons">
+                    <a class="tw-share"
+                        href="https://twitter.com/share?url=https://youtu.be/fbLYiSJMtVI&text=スケ/SUKEの動画です！"><img
+                            src="img/twitter_logo.svg"></a>
+                    <a class="visit" href="https://youtu.be/fbLYiSJMtVI"><img src="img/visit.svg">Visit Site</a>
+                </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <p>I were commissioned by BenQ Corporation to produce a video review of their speaker products. In order
+                    to
+                    have many people watch it,I posted it together with the room introduction.</p>
+                <p>株式会社BenQから依頼を受けて，スピーカー製品のレビュー動画を制作しました。より多くの人の目に留まるように，部屋紹介と合わせて投稿しています。</p>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/fbLYiSJMtVI" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="deep-dive suke-collab">
+        <button class="close">
+            <img src="img/close.svg">
+        </button>
+        <div class="scroll-block">
+            <section>
+                <p class="category">Typography PV</p>
+                <h2>SUKE Collab-video</h2>
+                <div class="buttons">
+                    <a class="tw-share"
+                        href="https://twitter.com/share?url=https://youtu.be/R8Sf-DupCGk&text=スケ/SUKEの動画です！"><img
+                            src="img/twitter_logo.svg"></a>
+                    <a class="visit" href="https://youtu.be/R8Sf-DupCGk"><img src="img/visit.svg">Visit Site</a>
+                </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <p>We co-created a typography PV for Kumori Inaba's "Rag Train". 23 people participated, ranging from
+                    beginners to professionals. Use of the song is permitted under copyright of NexTone management.</p>
+                <p>Twitterで有志を募り，稲葉曇「ラグトレイン」の文字PVを合作しました。初心者からプロの映像作家まで23人が幅広く参加しました。曲の使用はNexTone管理の著作権に基づき許可されています。</p>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/R8Sf-DupCGk" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="deep-dive hackintosh">
+        <button class="close">
+            <img src="img/close.svg">
+        </button>
+        <div class="scroll-block">
+            <section>
+                <p class="category">Independent Video</p>
+                <h2>How to install macOS</h2>
+                <div class="buttons">
+                    <a class="tw-share"
+                        href="https://twitter.com/share?url=https://youtu.be/qa7C0aBZ-Ws&text=スケ/SUKEの動画です！"><img
+                            src="img/twitter_logo.svg"></a>
+                    <a class="visit" href="https://youtu.be/qa7C0aBZ-Ws"><img src="img/visit.svg">Visit Site</a>
+                </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <p>I have produced an instructional video on Hackintosh, a method of installing macOS on windows.
+                    Introduces
+                    techniques and benchmarks related to bootloaders. The video received over 50,000 views within a week
+                    after it was posted.</p>
+                <p>windowsにmacOSをインストールする方法であるHackintoshの解説動画を制作しました。ブートローダに関する技術やベンチマークも合わせて紹介しています。投稿後1週間で5万回再生を突破しました。
+                </p>
+                <div class="video-wrapper">
+                    <iframe src="https://www.youtube.com/embed/qa7C0aBZ-Ws" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="deep-dive quick-searcher">
+        <button class="close">
+            <img src="img/close.svg">
+        </button>
+        <div class="scroll-block">
+            <section>
+                <p class="category">UI Design/Web Development</p>
+                <h2>Quick Searcher</h2>
+                <div class="buttons">
+                    <a class="tw-share"
+                        href="https://twitter.com/share?url=https://quick-searcher.netlify.app&text=スケ/SUKEの動画です！"><img
+                            src="img/twitter_logo.svg"></a>
+                    <a class="visit" href="https://quick-searcher.netlify.app"><img src="img/visit.svg">Visit Site</a>
+                </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <p>Based on the concept of "one-shot search for what you want to find," I developed "Quick Searcher," a
+                    tool
+                    that allows you to search various search engines at once.
+                    I am conscious of the refinement of UI design and overall accessibility.</p>
+                <p>「探したいものに一発で」をコンセプトに，様々な検索エンジンで一度に検索できるツールQuick Searcherを開発しました。
+                    UIデザインの洗練や全体のアクセシビリティを意識しています。</p>
+
+                <img src="img/quick_searcher/1.png" alt="Quick Searcher" class="image">
+                <img src="img/quick_searcher/2.png" alt="Quick Searcher" class="image">
+            </section>
+        </div>
+    </div>
+    <div class="deep-dive realize">
+        <button class="close">
+            <img src="img/close.svg">
+        </button>
+        <div class="scroll-block">
+            <section>
+                <p class="category">Web Design</p>
+                <h2>REALIZE Official</h2>
+                <div class="buttons">
+                    <a class="tw-share"
+                        href="https://twitter.com/share?url=https://realize-creator.studio.site&text=スケ/SUKEの動画です！"><img
+                            src="img/twitter_logo.svg"></a>
+                    <a class="visit" href="https://realize-creator.studio.site"><img src="img/visit.svg">Visit Site</a>
+                </div>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                <p>We designed the website of creator-greep REALIZE with the no-code tool STUIDO. The overall design is
+                    simple so that the gradation stands out. It was published in STUDIO ShowCase.</p>
+                <p>クリエイターグリープREALIZEのホームページを，ノーコードツール STUIDOにてデザインしました。グラデーションが際立つように全体的にシンプルにしています。STUDIO
+                    ShowCaseに掲載されました。
+                </p>
+
+                <img src="img/realize/1.png" alt="Quick Searcher" class="image">
+                <img src="img/realize/2.png" alt="Quick Searcher" class="image">
+                <img src="img/realize/3.png" alt="Quick Searcher" class="image">
+            </section>
+        </div>
+    </div>
+    <div class="deep-dive suke-os">
+        <button class="close">
+            <img src="img/close.svg">
+        </button>
+        <div class="scroll-block">
+            <section>
+                <p class="category">UI Design/Web Development</p>
+                <h2>sukeOS project (ongoing)</h2>
+                <p>This is an ongoing project to run a mock-up of a real OS on the web, completely front-end, using
+                    jQuery
+                    and localStorage.</p>
+                <p>web上で実際のOSに近いモックを動かすという進行中のプロジェクトです。jQueryやlocalStorageを使用して，完全にフロントエンドで動作します。GUIデザインも一から設計しています。
+                </p>
+
+                <img src="img/suke_os/1.png" alt="Quick Searcher" class="image">
+                <img src="img/suke_os/2.png" alt="Quick Searcher" class="image">
+                <img src="img/suke_os/3.png" alt="Quick Searcher" class="image">
+            </section>
+        </div>
+    </div>
+    <div class="deep-dive adobe-icon">
+        <button class="close">
+            <img src="img/close.svg">
+        </button>
+        <div class="scroll-block">
+            <section>
+                <p class="category">UI Design/Web Development</p>
+                <h2>Adobe-icon Generator</h2>
+                <div class="buttons">
+                    <a class="tw-share"
+                        href="https://twitter.com/share?url=https://adobe-icon.netlify.app&text=スケ/SUKEの動画です！"><img
+                            src="img/twitter_logo.svg"></a>
+                    <a class="visit" href="https://adobe-icon.netlify.app"><img src="img/visit.svg">Visit Site</a>
+                </div>
+                <p>This tool can generate Adobe-like icons. This tool was developed using HTML2Canvas, which converts
+                    HTML
+                    elements into images.
+                    It received a response on Twitter.</p>
+                <p>Adobe風のアイコンを生成できるツールです。開発にはHTML要素から画像化する，HTML2Canvasを使用しました。Twitterで大きな反響があり，利用者も安定しています。
+                </p>
+                <img src="img/adobe-icon/1.png" alt="Quick Searcher" class="image">
+                <img src="img/adobe-icon/2.png" alt="Quick Searcher" class="image">
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2023 スケ/Suke. All rights reserved.</p>
+        <a href="https:twitter.com/pcsuke">>Twitter</a>
+        <a href="https:youtube.com/@sukepc">>Youtube</a>
+        <a href="https:github.com/sukepc0824">>Github</a>
+    </footer>
+    <script>
+        let mm = gsap.matchMedia();
+        itemWrapper = document.querySelector('.content-box-wrapper');
+        itemInner = document.querySelector('.content-box-list');
+
+        mm.add("(max-width: 649px)", () => {
+            gsap.to(itemInner, {
+                x: 0,
+                ease: 'none',
+            });
+        });
+
+        mm.add("(min-width: 650px)", () => {
+            gsap.to(itemInner, {
+                x: () => -(itemInner.clientWidth - itemWrapper.clientWidth),
+                ease: 'none',
+                scrollTrigger: {
+                    trigger: '.side-scroll',
+                    start: 'top top',
+                    end: () => `+=${itemInner.clientWidth - itemWrapper.clientWidth}`,
+                    scrub: true,
+                    pin: true,
+                    invalidateOnRefresh: true,
+                    anticipatePin: 1,
+                },
+            });
+        });
+        $(function () {
+            $('p[lang="jp"],h2[lang="jp"],h3[lang="jp"],td[lang="jp"],li[lang="jp"],span[lang="jp"]').hide();
+            $('select').change(function () {
+                let r = $('option:selected').val();
+                if (r === 'japanese') {
+                    $('p[lang="en"],h2[lang="en"],h3[lang="en"],td[lang="en"],li[lang="en"],span[lang="en"]').hide();
+                    $('p[lang="jp"],h2[lang="jp"],h3[lang="jp"],td[lang="jp"],li[lang="jp"],span[lang="jp"]').show();
+                } else {
+                    $('p[lang="en"],h2[lang="en"],h3[lang="en"],td[lang="en"],li[lang="en"],span[lang="en"]').show();
+                    $('p[lang="jp"],h2[lang="jp"],h3[lang="jp"],td[lang="jp"],li[lang="jp"],span[lang="jp"]').hide();
+                }
+            });
+
+            $(window).scroll(function () {
+                let m = new WebKitCSSMatrix($('.content-box-list').css("transform"));
+                let progress = m.e;
+                let range = itemInner.clientWidth - itemWrapper.clientWidth;
+                $(".progress").width(`${(-progress / range) * 100}%`);
+                if (-progress > $(".development-works").position().left) {
+                    $("#works h2 span.video").fadeOut(150)
+                    $("#works h2 span.dev").fadeIn(150)
+
+                } else {
+                    $("#works h2 span.video").fadeIn(150);
+                    $("#works h2 span.dev").fadeOut(150);
+                }
+            });
+
+            $("header button.header-menu-button").on("click", function () {
+                $(this).toggleClass("active");
+                $('.header-menu').toggleClass("active");
+            })
+
+            $("#works button").on("click", function () {
+                $("body,header,.page-wrapper,header ul").addClass("active");
+                $(`.${$(this).attr("open-to")}`).addClass("active");
+                console.log($(this).attr("open-to"))
+                setTimeout(function () {
+                    $("header").addClass("color");
+                }, 800);
+            })
+
+            $(".deep-dive button.close").on("click", function () {
+                $(".page-wrapper,.deep-dive,header ul").removeClass("active");
+                $("header").removeClass("color");
+                setTimeout(function () {
+                    $("body,header").removeClass("active");
+                }, 800);
+            })
+
+            $("a.tw-share").on("click", function () {
+                $("a.twitter-share-button").trigger("click");
+            })
+
+            var ua = window.navigator.userAgent.toLowerCase();
+            if (ua.indexOf("iphone") !== -1 || ua.indexOf("ipad") !== -1) {
+                $(".deep-dive button.close").addClass("ios");
+            } else if (ua.indexOf("mac os x") !== -1) {
+                $(".deep-dive button.close").addClass("macos");
+            }
+        })
+    </script>
+</body>
+
+</html>
