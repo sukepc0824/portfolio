@@ -1,0 +1,7 @@
+#about-me .content-box.small {
+    width: calc(25% - 8px);
+}
+
+#about-me .content-box.large {
+    width: calc(50% - 16px);
+}
