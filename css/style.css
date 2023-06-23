@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        font-weight: 500;
     background-color: #ffffff;
     color: #222;
     overflow-x: hidden;
