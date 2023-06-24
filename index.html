@@ -46,7 +46,7 @@
         <ul>
             <li><a href="#about-me">About</a></li>
             <li><a href="#works">Works</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
     <div id="top">
@@ -57,7 +57,7 @@
         </div>
     </div>
     <div id="about-me" class="about-me">
-        <h2>About me</h2>
+        <h2>About <span style="font-family: 'Caveat'; font-size: 5.6rem; color: #f9660a; line-height: 0%;">me!</span></h2>
         <p class="profile caption" lang="en">I am a
             <span>Video creator/Web developer/UI designer</span>
             living in Oita, Japan.
@@ -71,7 +71,7 @@
             <div class="content-box small">
                 <p class="content-title">Twitter</p>
                 <img src="img/twitter_logo.svg" class="logo">
-                <h3>@pcsuke</h3>
+                <a href="https:twitter.com/pcsuke"><h3>@pcsuke</h3></a>
             </div>
             <div class="content-box large">
                 <table>
@@ -512,9 +512,8 @@
                 }
             });
 
-            $("header button.header-menu-button").on("click", function () {
-                $(this).toggleClass("active");
-                $('.header-menu').toggleClass("active");
+            $("header button.header-menu-button,.header-menu a").on("click", function () {
+                $('.header-menu,button.header-menu-button,.header-menu a').toggleClass("active");
             })
 
             $("#works button").on("click", function () {
