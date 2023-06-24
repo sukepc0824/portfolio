@@ -344,7 +344,7 @@ p.caption span {
 
 #works .content-box.text p {
     font-size: min(2.8vh, 36px);
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.2;
 }
 
