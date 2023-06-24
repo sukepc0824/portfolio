@@ -89,8 +89,8 @@ header button.header-menu-button.active .border2 {
 
 .header-menu ul {
     font-size: 60px;
-    font-weight: 550;
     letter-spacing: -0.1rem;
+    font-variation-settings: 'wght' 600,'wdth'155;
 }
 
 .header-menu ul li {
@@ -127,7 +127,7 @@ header button.header-menu-button.active .border2 {
 }
 
 h2 {
-    font-size: 3.1rem;
+    font-size: 3rem;
     font-weight: 600;
     letter-spacing: -0.007em;
 }
