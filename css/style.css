@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;580;600&family=Noto+Sans+JP:wght@400;500;600&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bdo-grotesk');
 
 @font-face {
     font-family: 'Mona Sans';
@@ -203,7 +204,8 @@ p.caption span {
     vertical-align: middle;
     font-size: 1.3rem;
     padding-right: 20px;
-    font-weight: 500;
+    font-weight: 450;
+    font-variation-settings: 'wght' 450;
     white-space: nowrap;
 }
 
@@ -372,14 +374,14 @@ p.caption span {
 }
 
 #works .content-box p.category {
-    font-weight: 600;
+    font-weight: 500;
     font-size: min(1.8vh, 20px);
     color: rgb(34, 34, 34, 0.6);
     margin-bottom: 0.4vh;
 }
 
 #works .content-box p.card-title {
-    font-weight: 600;
+    font-weight: 500;
     font-size: min(2.8vh, 36px);
 }
 
@@ -707,7 +709,8 @@ header.color ul {
 }
 
 .deep-dive p {
-    font-weight: 500;
+    font-weight: 450;
+    font-variation-settings: 'wght' 450;
     font-size: 1.3rem;
     margin-bottom: 10px;
     margin-top: 30px;
