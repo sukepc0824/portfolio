@@ -123,11 +123,11 @@ header button.header-menu-button.active .border2 {
 }
 
 #about-me p.profile {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 600;
     letter-spacing: -0.007em;
 }
@@ -294,6 +294,7 @@ h2 {
 
 #contact p.caption {
     margin-bottom: 40px;
+    font-size: 1.5rem;
 }
 
 #contact .content-box-wrapper {
@@ -315,6 +316,18 @@ h2 {
 #contact .content-box:hover {
     transform: scale(1);
     box-shadow: none;
+}
+
+#contact .content-box h3 {
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+#contact .content-box p {
+    font-size: 1rem;
+    margin-top: 4px;
+    opacity: 0.7;
+    font-weight: 550;
 }
 
 footer {
